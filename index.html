@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maze AI Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>Maze AI Visualizer</h1>
+  <p class="subtitle">BFS vs DFS (Clear &amp; Professional)</p>
+
+  <div id="status">Press Start</div>
+
+  <!-- STATS -->
+  <div class="stats">
+    <span>Player: <b id="playerMoves">0</b></span>
+    <span>BFS steps: <b id="bfsSteps">0</b></span>
+    <span>DFS steps: <b id="dfsSteps">0</b></span>
+    <span>BFS explored: <b id="bfsExplored">0</b></span>
+    <span>DFS explored: <b id="dfsExplored">0</b></span>
+  </div>
+
+  <!-- INSIGHT -->
+  <div id="insight" class="insight">
+    BFS finds shortest path · DFS explores depth-first
+  </div>
+
+  <!-- GAME -->
+  <div class="container">
+    <div class="panel">
+      <h3>BFS</h3>
+      <div id="mazeBFS" class="maze"></div>
+    </div>
+
+    <div class="panel">
+      <h3>DFS</h3>
+      <div id="mazeDFS" class="maze"></div>
+    </div>
+  </div>
+
+  <!-- CONTROLS -->
+  <div class="controls">
+    <button id="startBtn">Start</button>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <p class="hint">Use Arrow Keys / WASD</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
