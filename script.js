@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════════════════════
-   MAZE AI VISUALIZER — Academically Correct BFS vs DFS
+   MAZE AI VISUALIZER — BFS vs DFS
    ═══════════════════════════════════════════════════════════
 
    BFS — Queue (FIFO).
